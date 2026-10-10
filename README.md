@@ -61,28 +61,40 @@ Translations are audited against four fundamental ontological boundaries:
 
 ## Using the AI Skill
 
-When integrated into an AI agent environment (such as Google Antigravity / Gemini CLI), the translator can be invoked using natural commands:
+### A. Agent Environments (Antigravity / Gemini CLI)
 
-### 1. Direct Translation
+In agentic environments that discover local skill folders, point the agent to `.agents/skills/grimoire-translator/`. The translator is invoked with natural commands:
+
+#### 1. Direct Translation
 ```text
 Grimoire translate <text or concept> to <preferred system>
 ```
 *Example:* `Grimoire translate "Burn without consuming" to cybernetics`
 
-### 2. Cosmological & Remnant Analysis
+#### 2. Cosmological & Remnant Analysis
 ```text
 Grimoire analyze <text or personal dilemma>
 ```
 *Locates the input across the Ten Realms, diagnoses Gate resonance, and checks for Remnant inversions.*
 
-### 3. Cross-Tradition Mapping
+#### 3. Cross-Tradition Mapping
 ```text
 Grimoire crossmap <concept> from <tradition A> to <tradition B>
 ```
 *Example:* `Grimoire crossmap "The Abyss" from thelema to cybernetics`
 
-### 4. Conversational & Life Translation
+#### 4. Conversational & Life Translation
 The engine works on subjective human experiences (burnout, people-pleasing, imposter syndrome, relational boundary collapse), mapping everyday dilemmas into archetypal and technical terms.
+
+### B. Grok & Standalone Chat LLMs (Consolidated Prompt Bundle)
+
+For Grok, ChatGPT, Claude, or any chat LLM without folder-based skill loading, use `GROK_SKILL_PROMPT.md`:
+1. Copy the contents of `GROK_SKILL_PROMPT.md` and paste it into the system prompt or opening chat message.
+2. The bundle consolidates `SKILL.md` and all four reference codices into a single standalone prompt.
+3. **Never hand-edit `GROK_SKILL_PROMPT.md`**. If you modify `SKILL.md` or any file in `references/`, regenerate the bundle using:
+   ```bash
+   python3 .agents/skills/grimoire-translator/scripts/bundle_prompt.py
+   ```
 
 ---
 
@@ -121,13 +133,18 @@ Grimoire/
 │           │   ├── living_traditions.md  # Profiles of 8 living mystical traditions
 │           │   └── contradiction_index.md# Ontological divides & false friends
 │           └── scripts/
-│               └── grimoire_cli.py       # Python query CLI
+│               ├── bundle_prompt.py      # Bundles SKILL + references into GROK_SKILL_PROMPT.md
+│               ├── grimoire_cli.py       # Python query CLI
+│               └── verify_canon.py       # Asserts canonical values match manuscript
 ├── Core/
 │   └── Symbology_Translator_Crossmap.md  # Comprehensive cross-map & dossiers
-└── Sources/
-    ├── Manuscript_Master.md              # Master text: A Wanderer’s Guide to the Gates
-    ├── Esoteric Symbology Cross-Tradition Mapping.md
-    └── SYMBOLOGY_TRANSLATOR_HANDOFF.md  # Project design & architectural handoff
+├── Sources/
+│   ├── Manuscript_Master.md              # Master text: A Wanderer’s Guide to the Gates
+│   ├── Esoteric Symbology Cross-Tradition Mapping.md
+│   └── SYMBOLOGY_TRANSLATOR_HANDOFF.md  # Project design & architectural handoff
+├── .gitignore
+├── GROK_SKILL_PROMPT.md                  # Generated consolidated prompt bundle
+└── README.md
 ```
 
 ---
