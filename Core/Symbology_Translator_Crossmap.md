@@ -2,9 +2,9 @@
 **External living traditions → Ten Realms / Gates / Keys / Remnants**
 
 **File:** `Core/Symbology_Translator_Crossmap.md`  
-**Date:** 2026-08-22  
-**Inputs:** `Sources/Esoteric Symbology Cross-Tradition Mapping.md` (cleaned external layer) · `Sources/Manuscript_Master.md` (closed target cosmology)  
-**Status:** First mapping pass. Correspondences only.
+**Date:** 2026-10-10  
+**Inputs:** `Sources/Esoteric Symbology Cross-Tradition Mapping.md` (cleaned external layer post-cleanup pass) · `Sources/Manuscript_Master.md` (closed target cosmology)  
+**Status:** Second mapping pass (post-cleanup). Forced-fit review and historical divergence audit.
 
 ---
 
@@ -24,6 +24,8 @@ Matches are **functional and experiential**, not name-matches.
 
 Do not synonymize teleologies. Black Flame is not Taboric Light. Auto-deification is not theosis. Sacred Heart reparation is not merging. Goetic binding is not Luciferian invocation. A Gate in this cosmology does not open to effort, knowledge, technique, or the accumulated weight of good intention.
 
+**Living vs. Historical items:** In accordance with the living-tradition scope (2025–2026 practice), any external concept or symbol identified as historical-only is excluded from Clean/Partial mappings and retained unmapped in §5 (or marked with an explicit `[HISTORICAL ONLY]` flag and kept unmapped), ensuring that operational mappings reflect active, living praxis rather than historical reconstructions.
+
 A standing warning: using this translator as a filing system of labels, without inhabiting what the labels point to, is itself the Remnant of Integration — *the managed inventory*.
 
 ---
@@ -39,14 +41,14 @@ A standing warning: using this translator as a filing system of labels, without 
 | **Rose Cross** | II Form (worn vessel; structure serving what is living); VIII Integration (elements held as one jewel) | VI Compassion (pelican) — sacrifice-as-nourishment, not meeting | II Remnant: the lamen as the point; jewel as identity. VIII Remnant: grades collected, not woven | Not the Leviathan Cross. Not Baphomet (no redeemer vs. inhabited synthesis). |
 | **Pentagram / LBRP** | II Form (daily return; the circle as the shape through which intention becomes real) | VII Presence (clearing so the moment can be stood in); I Origin (sphere made still enough) | II Remnant: repetition without inhabitation. VII Remnant: performed stillness, attention elsewhere | Forced onto IV Will because it “commands.” Command is not this cosmology’s Gate-condition. |
 | **Leviathan Cross** | — | IV Will (alchemical fire of the self) | **Primary remnant-risk:** IV Remnant Key. Intensity as proof; independence as consumption | Forced onto I Origin (received first light). Forced onto Chi-Rho (opposed teleologies). |
-| **Pantocrator** | — | VIII Integration (two natures as tension inhabited, not solved) — thin | — | **No clean match** as cosmic ruler/judge. The Wheel has no Pantocrator and no Demiurge. Gatekeepers whisper; they do not reign. Gnostic Yaldabaoth reading is a false equivalency, not a translation. |
+| **Pantocrator** | — | — (two natures tension is theological analogy only, not operational) | — | **No match** as cosmic ruler/judge. The Wheel has no Pantocrator and no Demiurge. Gatekeepers whisper; they do not reign. Gnostic Yaldabaoth reading is a false equivalency, not a translation. Listed in §5. |
 | **Chi-Rho** | — | IX Gate of the Last Light (a small, quiet crossing); X Return (end as other side of beginning) | IX Remnant: surge of victorious feeling without the step | Forced as “victory over death” onto a Gate that asks only for unpolished movement. |
-| **Enochian Tablets** | V Echoes (grid that returns what was sent; look without revising the coordinate) | II Form (Watchtowers as vessel/map); III Identity (which current is yours) | V Remnant: Calls as confirmation. II Remnant: tablets as the point. **Mechanism conflict:** Enochian *commands* the cosmos; Gates here do not open to command | Forced onto Orthodox angel-icons (intercessors ≠ mechanistic governors). |
+| **Enochian Tablets** | V Echoes (scrying the coordinate as unguarded return; seeing what appears without revision) | II Form (Watchtowers as vessel/map); III Identity (discerning which current is yours) | V Remnant: Calls as confirmation. II Remnant: tablets as the point. **Mechanism conflict:** Enochian *commands* the cosmos; Gates here do not open to command | Forced onto Orthodox angel-icons (intercessors ≠ mechanistic governors). Command-structure is unmapped (§5). |
 | **Goetic Sigils** | — | II Form (circle and triangle as shape) — structure only | **Primary remnant-risk:** II Remnant Key (“If I hold the shape perfectly, nothing can go wrong”). IV Remnant: constraint as will | **No clean match** for binding/coercing named spirits. No spirit-catalog in the Wheel. Not Luciferian altar seals. |
 | **Lucifer Sigils / Black Flame** | — | IV Will (ignited, directed fire); I Origin (spark already in the chest) — *direction of light only* | I Remnant: reaching for the flame; holding it as possession. IV Remnant: weaponized light, auto-deification as heat-without-hearth | **Not clean to Origin.** Origin’s light comes to those still enough to be found. Black Flame is seized. Not theosis. Not Sacred Heart. |
 | **Tree of Life** | VIII Integration (many emanations, one tree; warp and weft) | II Form (map as vessel for walking) | VIII Remnant: Sephiroth as compartments / “managed inventory.” Sequential pathworking as tourism | **Do not equate ten Sephiroth with ten Realms.** The Wheel is a spiral; the Traveler stands before all ten Gates always. A ladder is a forced fit. |
 | **Qliphoth / Nightside** | — | V Echoes (the uncorrected outline, including what is dark); IX Threshold Fear (the edge that is real because it frightens) | V Remnant: “I faced the shadow, therefore I am right.” IV Remnant: descent as empowerment. Integration Remnant: Nightside as a second filing system | **No clean match** as a second tree to be traversed for power. Remnants here are inversions of a Realm, not a path of auto-deification. Gnostic *escape* of lower spheres is looking away — Echoes Remnant, inverted. |
-| **Baphomet** | — | VIII Integration (union of opposites) | IV Remnant: raw equilibration as force | Forced. Integration’s Key is discovery of what was already whole, not *solve et coagula* without a living centre. Rose Cross is the cleaner synthesis-glyph. |
+| **Baphomet** | — | VIII Integration (union of opposites — visual/symbolic image only) | IV Remnant: raw equilibration as force | Forced. Integration’s Key is discovery of what was already whole, not *solve et coagula* without a living centre. Rose Cross is the cleaner synthesis-glyph. Operationally forced. |
 | **Venus / Morning Star** | Split glyph. Catholic *Stella Matutina* → I Origin (herald of first light, not the light itself). Luciferian Phosphoros → IV Will (descent of rebellious knowledge) | VI Compassion (Marian relationality) | III Remnant: becoming the needed shape (obedience as borrowed current). IV Remnant: rebellion as proof of True Will | Do not synonymize Mary and Lucifer because they share a planet. Same visual, two operations. |
 
 ### 1.2 Language layer
@@ -60,11 +62,11 @@ A standing warning: using this translator as a filing system of labels, without 
 | **Black Flame** | — | IV Will (inner fire directed) | I + IV Remnants (reaching; consuming) | Not Divine Spark-as-return. Not Taboric Light. Not L.V.X. |
 | **Pleroma** | — | X Return / I Origin (undivided fullness felt as already-here) | X Remnant: arrival as elsewhere | **Forced.** Pleroma is fullness *distinct from* matter. Return is the first room seen from the other side of the same field. |
 | **Kenoma** | — | — | Looping as experiential prison (any Remnant Gate) | **No match** as a flawed cosmos created by a Demiurge. The Wheel is not a jail. |
-| **Qliphoth / Sitra Ahra** | — | V, IX (see visual) | See visual | Not Kenoma. Not a required descent. |
+| **Qliphoth / Sitra Ahra** | — | V Echoes (seeing uncorrected shadow outline); IX Threshold Fear (facing the terrifying edge) | V Remnant (“I faced it, therefore I am enlightened”); IV Remnant (descent for power); Integration Remnant (Nightside filing system) | Not Kenoma (cosmic escape). Not a required descent. Auto-deification through shadow has no landing in the Wheel. |
 | **Uncreated Light** (Hesychasm) | I Origin; Gate of First Light; Gate of the Last Light (pale seam) | VII Presence | I Remnant: naming the light before it lands | Not L.V.X. (summoned). Not Black Flame (seized). |
 | **L.V.X.** (Golden Dawn) | — | II Form / IV Will (light operatively directed) | II Remnant: the light-working as the point. I Remnant: reaching | Not Taboric Light. Gates here do not open to summoned light. |
-| **Enochian Call / Key** | — | V Echoes; II Form | V Remnant (sonic confirmation); command vs. reception | Not Jesus Prayer. Not petition. Not Goetic legalese. |
-| **Goetic conjuration** | — | — | II + IV Remnants (perfect vessel; force as truth) | **No clean match.** Nearest *external* cousin is Catholic exorcism, which also has no Realm landing as coercion. |
+| **Enochian Call / Key** | — | V Echoes (unrevised vibratory return); II Form (formula as vessel) | V Remnant (vibratory confirmation of pre-chosen doctrine); II Remnant (mechanistic pronunciation as guarantee). Mechanism conflict: commands rather than receives | Not Jesus Prayer. Not petition. Not Goetic legalese. Enochian command-structure as a Gate-condition is unmapped (§5). |
+| **Goetic conjuration / Triangle of Art & Binding** | — | II Form (circumscribed precinct / geometry as shape only) | II + IV Remnants (perfect vessel as guarantee: “If I hold the shape perfectly, nothing can go wrong”; coercive force as authority) | **No clean match.** Coercive binding and subjugation of spirits have no landing in the Wheel (no spirit-catalog, no borrowed courtroom). Direct inversion of Luciferian devotion; nearest external cousin is exorcistic adjuration (unmapped in §5). |
 | **Jesus Prayer** | I Origin (stillness, mercy, light allowed to land); VII Presence (breath, heart, body) | Gate of First Light; Gate of the Living Moment | VII Remnant Lessons: Controlled Breath, The Pose | Not LBRP. Purification-function overlap only; one receives, the other commands. |
 | **“Do what thou wilt…”** (O.T.O. / E.G.C.) | III Identity + IV Will (micro-ritual of own current, directed) | — | Using the greeting as scripted passage (I Remnant Gate: familiar phrases, closed hands) | — |
 | **“…compassionless love”** (Fraternitas Saturni) | — | — | **VI Remnant** (refuses the meeting). Contradiction Index §3 | No clean landing in Compassion. The Gate of Shared Presence asks for honest presence, not Saturnian objectivity. |
@@ -75,7 +77,7 @@ A standing warning: using this translator as a filing system of labels, without 
 | **Abyss / Black Diamond** (Luciferian / Qliphothic) | — | — | IX Remnant (intensity as arrival); IV Remnant (isolated Godhood as heat) | Not the Hesychast Divine Darkness. Not the Thelemic Abyss. |
 | **Divine Darkness** (Hesychasm) | I Origin; IX Threshold Fear (the unknown as brilliance, not evil) | Gate of the Last Light | IX Remnant: calling the dark “not yet ready” | Not Sitra Ahra. Not Daath-as-Nightside. |
 | **Demiurge** (Gnostic) | — | — | — | **No match.** |
-| **Saturn as Demiurge** (Fraternitas Saturni) | — | II Form (limitation as the condition through which intention becomes real) | II Remnant: the limitation as the point | Forced. Form’s stone is not a warden. |
+| **Saturn as Demiurge** (Fraternitas Saturni) | — | — (limitation/friction analogy only; operationally forced) | II Remnant: the limitation as the point | Forced. Form’s stone is not a warden. The Wheel has no Demiurge and no cosmic prison. Kept unmapped in §5. |
 | **Heart** (Catholic, *Dilexit Nos*) | VI Compassion; VII Presence | — | VI Remnant (reparation as self-erasure) | Not Tiphareth. |
 | **Heart / Tiphareth** (GD) | — | II Form; VIII Integration (centre of the microcosm) | VIII Remnant: centre as a labelled compartment | Not Catholic Heart. Structural, not ethical. |
 | **Angel** (Orthodox icon) | — | — | — | **No match** as personal intercessor. Gatekeeper ≠ angel. |
@@ -461,12 +463,13 @@ Do not force a Realm onto these. They can be listed as *external-only* and flagg
 - **Pantocrator as cosmic ruler / judge** — no throne in the Wheel.
 - **Demiurge / Yaldabaoth** — no jailer-god; FS Saturn-as-necessary-warden is still not Form.
 - **Kenoma as ontology** — the field is not a prison.
-- **Goetic coercion / Catholic exorcism as operation** — no bound-spirit catalog; no borrowed courtroom.
+- **Triangle of Art & Binding / Goetic coercion / Catholic exorcism as operation** — no bound-spirit catalog; no borrowed courtroom; coercive subjugation has no Realm landing.
 - **Orthodox angels as personal intercessors** — Gatekeepers are not a host.
 - **Ten Sephiroth = ten Realms** — sequential ladder ≠ simultaneous Gates on a spiral.
 - **Auto-deification / Black Diamond as a goal** — Keys are recognition, not manufacture of a sovereign god.
 - **Pleroma as elsewhere** — Return is this field from the other side of the door.
-- **Enochian command-structure as a Gate-condition** — Gates do not open to command.
+- **Enochian Call / Key / command-structure as a Gate-condition** — Gates do not open to command; sonic assertion of authority does not open a Gate.
+- **Any entry marked `[HISTORICAL ONLY]`** — excluded from operational mappings per living-tradition scope (2025–2026 practice).
 
 ---
 
@@ -497,4 +500,21 @@ Do not force a Realm onto these. They can be listed as *external-only* and flagg
 
 ---
 
-*End of first mapping pass. Target cosmology untouched.*
+## 8. Second-pass change log
+
+This section documents refinements, forced-fit adjustments, and scope clarifications made during the second mapping pass following the cleanup of external source mappings and living-tradition audit (2026-10-10).
+
+| Row / Symbol | Previous Status (Pass 1) | Updated Status (Pass 2) | Rationale & Refinement |
+| :--- | :--- | :--- | :--- |
+| **Pantocrator** (§1.1) | Partial (VIII Integration — thin) | **No match** (§5 unmapped) | Pantocrator represents cosmic rule, judgment, and dogmatic authority. Calling Christological two-natures tension a partial fit for Integration was an external theological analogy, not an operational landing. Inhabited Integration has no throne or cosmic ruler. Moved to unmapped per Rule 5 ("When unsure, leave it unmapped"). |
+| **Saturn as Demiurge (FS)** (§1.2) | Partial (II Form) / Forced | **Forced** (§5 unmapped) | The file's own analysis and §5 noted that Saturn-as-necessary-warden is not Form. Retaining II Form under Partial created ambiguity with the Forced column and §5. Refined Partial to `—` (analogy only) and confirmed unmapped in §5. |
+| **Baphomet** (§1.1) | Partial (VIII Integration) / Forced | Partial (symbolic image only) / **Forced** (operationally) | Clarified that Baphomet's *solve et coagula* equilibration is an external visual/symbolic image only. Operationally, forced fusion without a living centre conflicts with Integration's Key of discovering what was already whole. |
+| **Enochian Tablets** (§1.1) | Clean (V Echoes) | Clean (V Echoes — scrying return only) | Clarified that the Clean landing applies strictly to scrying the coordinate as unguarded, unrevised return (seeing what appears without revision). The command-and-govern engine conflicts with Gate-conditions and remains unmapped in §5. |
+| **Enochian Call / Key** (§1.2) | Partial (V Echoes, II Form) | Partial (V Echoes, II Form) / Remnant-risk / §5 unmapped | Re-audited against expanded Dee/Kelley First Call text. The sonorous formula operates as an objective assertion of authority to command celestial governors. Partial overlap in sonic return and formulaic vessel retained, but command-structure as Gate-condition is explicitly flagged and confirmed unmapped in §5. |
+| **Goetic conjuration / Triangle of Art & Binding** (§1.2) | Partial: `—` / Remnant-risk (II, IV) | Partial (II Form — geometry only) / Remnant-risk / §5 unmapped | Re-audited against expanded Solomonic First Conjuration and Triangle of Art text. Added explicit reference to the Triangle of Art. Circumscribed precinct offers partial geometric structure (II Form), but coercive subjugation has no landing in the Wheel. Confirmed unmapped in §5. |
+| **Qliphoth / Sitra Ahra** (§1.2) | Partial: "V, IX (see visual)" | Partial (V Echoes, IX Threshold Fear) | Expanded inline description of partial overlap: seeing uncorrected shadow outline (V) and confronting terrifying edge (IX), with explicit warning that antinomian descent for power is Remnant of IV wearing IX's face. |
+| **Historical-only scope rule** (Header & "How to read") | Implicit | Explicit policy | Formally documented rule: external items lacking continuous living praxis (2025–2026) are excluded from Clean/Partial mappings and retained unmapped in §5. |
+
+---
+
+*End of second mapping pass. Target cosmology untouched.*
