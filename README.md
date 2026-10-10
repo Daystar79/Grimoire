@@ -127,7 +127,7 @@ Grimoire/
 └── Sources/
     ├── Manuscript_Master.md              # Master text: A Wanderer’s Guide to the Gates
     ├── Esoteric Symbology Cross-Tradition Mapping.md
-    └── SYMBIOLOGY_TRANSLATOR_HANDOFF.md  # Project design & architectural handoff
+    └── SYMBOLOGY_TRANSLATOR_HANDOFF.md  # Project design & architectural handoff
 ```
 
 ---
