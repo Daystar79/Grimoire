@@ -47,7 +47,7 @@ A standing warning: using this translator as a filing system of labels, without 
 | **Goetic Sigils** | — | II Form (circle and triangle as shape) — structure only | **Primary remnant-risk:** II Remnant Key (“If I hold the shape perfectly, nothing can go wrong”). IV Remnant: constraint as will | **No clean match** for binding/coercing named spirits. No spirit-catalog in the Wheel. Not Luciferian altar seals. |
 | **Lucifer Sigils / Black Flame** | — | IV Will (ignited, directed fire); I Origin (spark already in the chest) — *direction of light only* | I Remnant: reaching for the flame; holding it as possession. IV Remnant: weaponized light, auto-deification as heat-without-hearth | **Not clean to Origin.** Origin’s light comes to those still enough to be found. Black Flame is seized. Not theosis. Not Sacred Heart. |
 | **Tree of Life** | VIII Integration (many emanations, one tree; warp and weft) | II Form (map as vessel for walking) | VIII Remnant: Sephiroth as compartments / “managed inventory.” Sequential pathworking as tourism | **Do not equate ten Sephiroth with ten Realms.** The Wheel is a spiral; the Traveler stands before all ten Gates always. A ladder is a forced fit. |
-| **Qliphoth / Nightside** | — | V Echoes (the uncorrected outline, including what is dark); IX Threshold Fear (the edge that is real because it frightens) | V Remnant: “I faced the shadow, therefore I am right.” IV Remnant: descent as empowerment. Integration Remnant: Nightside as a second filing system | **No clean match** as a second tree to be traversed for power. Remnants here are inversions of a Realm, not a path of auto-deification. Gnostic *escape* of lower spheres is looking away — Echoes Remnant, inverted. |
+| **Qliphoth / Nightside** | — | V Echoes (the uncorrected outline, including what is dark); IX Threshold Fear (the edge that is real because it frightens) | V Remnant: “The echo proves I was right all along.” (shadow-work as proof). IV Remnant: descent as empowerment. Integration Remnant: Nightside as a second filing system | **No clean match** as a second tree to be traversed for power. Remnants here are inversions of a Realm, not a path of auto-deification. Gnostic *escape* of lower spheres is looking away — Echoes Remnant, inverted. |
 | **Baphomet** | — | VIII Integration (union of opposites — visual/symbolic image only) | IV Remnant: raw equilibration as force | Forced. Integration’s Key is discovery of what was already whole, not *solve et coagula* without a living centre. Rose Cross is the cleaner synthesis-glyph. Operationally forced. |
 | **Venus / Morning Star** | Split glyph. Catholic *Stella Matutina* → I Origin (herald of first light, not the light itself). Luciferian Phosphoros → IV Will (descent of rebellious knowledge) | VI Compassion (Marian relationality) | III Remnant: becoming the needed shape (obedience as borrowed current). IV Remnant: rebellion as proof of True Will | Do not synonymize Mary and Lucifer because they share a planet. Same visual, two operations. |
 
@@ -62,7 +62,7 @@ A standing warning: using this translator as a filing system of labels, without 
 | **Black Flame** | — | IV Will (inner fire directed) | I + IV Remnants (reaching; consuming) | Not Divine Spark-as-return. Not Taboric Light. Not L.V.X. |
 | **Pleroma** | — | X Return / I Origin (undivided fullness felt as already-here) | X Remnant: arrival as elsewhere | **Forced.** Pleroma is fullness *distinct from* matter. Return is the first room seen from the other side of the same field. |
 | **Kenoma** | — | — | Looping as experiential prison (any Remnant Gate) | **No match** as a flawed cosmos created by a Demiurge. The Wheel is not a jail. |
-| **Qliphoth / Sitra Ahra** | — | V Echoes (seeing uncorrected shadow outline); IX Threshold Fear (facing the terrifying edge) | V Remnant (“I faced it, therefore I am enlightened”); IV Remnant (descent for power); Integration Remnant (Nightside filing system) | Not Kenoma (cosmic escape). Not a required descent. Auto-deification through shadow has no landing in the Wheel. |
+| **Qliphoth / Sitra Ahra** | — | V Echoes (seeing uncorrected shadow outline); IX Threshold Fear (facing the terrifying edge) | V Remnant (“The echo proves I was right all along.” — here, shadow-work as proof); IV Remnant (descent for power); Integration Remnant (Nightside filing system) | Not Kenoma (cosmic escape). Not a required descent. Auto-deification through shadow has no landing in the Wheel. |
 | **Uncreated Light** (Hesychasm) | I Origin; Gate of First Light; Gate of the Last Light (pale seam) | VII Presence | I Remnant: naming the light before it lands | Not L.V.X. (summoned). Not Black Flame (seized). |
 | **L.V.X.** (Golden Dawn) | — | II Form / IV Will (light operatively directed) | II Remnant: the light-working as the point. I Remnant: reaching | Not Taboric Light. Gates here do not open to summoned light. |
 | **Enochian Call / Key** | — | V Echoes (unrevised vibratory return); II Form (formula as vessel) | V Remnant (vibratory confirmation of pre-chosen doctrine); II Remnant (mechanistic pronunciation as guarantee). Mechanism conflict: commands rather than receives | Not Jesus Prayer. Not petition. Not Goetic legalese. Enochian command-structure as a Gate-condition is unmapped (§5). |
@@ -191,7 +191,7 @@ Each dossier locates external material against the Realm as the manuscript alrea
 
 **Forced / no match**
 - Modular LBRP with swapped deity-names as proof of Identity (that is Form’s modularity, and often Identity’s Remnant: becoming what the room requires).
-- Auto-deification as “finally knowing who I am.”
+- Auto-deification as claiming to finally know who one is.
 
 **Remnant inversions**
 - The Borrowed Flame: HGA, teacher-current, order-current, or partner-current inhabited as True Will.
@@ -307,7 +307,7 @@ Each dossier locates external material against the Realm as the manuscript alrea
 **Remnant inversions**
 - The Pose / Controlled Breath: Jesus Prayer or LBRP as calm-tools.
 - The Narrated Experience: Gnosis reported from a safe distance.
-- The Managed Moment: planetary hours, grade work, and “I will be present when the ritual is over.”
+- The Managed Moment: planetary hours, grade work, and presence postponed until the ritual is over (cf. VII Remnant Key “I will be present when things are calmer.”).
 - Remnant Gate: stillness performed, scanning underneath.
 
 **Gap:** The Gate does not reward stillness. It rewards honesty. Motion fully inhabited has crossed it. Perfect stillness with attention on three continents has not.
@@ -363,7 +363,7 @@ Each dossier locates external material against the Realm as the manuscript alrea
 - The Rehearsed Step: Abyss-work prepared until preparation is the life.
 - The Poised Breath: ceremonial trembling that feels like movement.
 - Remnant Gate: surge of resolve, world does not shift.
-- Auto-deification’s “I will cross when I am sovereign enough.”
+- Auto-deification: crossing postponed until sovereignty feels complete (cf. IX Remnant Key “I will step when the fear is gone.”).
 
 **Gap:** “The fear is not a sign that the Traveler is not ready. The fear is the threshold itself.” External systems that treat fear as imbalance to banish before the working cannot open this Gate.
 
@@ -440,12 +440,12 @@ The Remnant, in this cosmology, “wears the Realm's face but speaks in a voice 
 | **Form** | Devotion / discipline | Goetic perfect circle; LBRP without inhabitation; Rose Cross as badge; serving the practice; metronomic correctness; Saturnian limitation as the point |
 | **Identity** | Care / attunement | Becoming what each room needs; HGA as borrowed lamp; order-current called True Will; Marian obedience *or* Luciferian rebellion when either is a shape taken for safety |
 | **Will** | Full commitment | Black Flame as proof; Leviathan; Lust as eruption; Draconian consumption; Goetic force; “compassionless” severity as fire |
-| **Echoes** | Wisdom / self-knowledge | Divination that confirms; Enochian as arranged coordinates; Qliphoth as “I faced it”; afterimage theology; Gnostic bypass called seeing |
+| **Echoes** | Wisdom / self-knowledge | Divination that confirms; Enochian as arranged coordinates; Qliphoth as “The echo proves I was right all along”; afterimage theology; Gnostic bypass called seeing |
 | **Compassion** | Love | Giving until the self is gone (misread Sacred Heart); absorbing the other (Babalon cup); filling the other (protection-as-love); FS compassionless love; intensity as presence |
-| **Presence** | Aliveness / engagement | Hovering above the ground; Jesus Prayer as calm-tool; LBRP pose; narrated Gnosis; “after the working” |
+| **Presence** | Aliveness / engagement | Hovering above the ground; Jesus Prayer as calm-tool; LBRP pose; narrated Gnosis; presence deferred until after the working |
 | **Integration** | Sophistication / having done the work | Correspondence tables as personality; Tree of Life as filing; seven traditions in seven hands; **this translator used as a map instead of walked** |
-| **Threshold Fear** | Respect for what matters | Waiting for fear to leave; rehearsed Abyss; ceremonial resolve without a step; “when I am ready / when I am sovereign” |
-| **Return** | Faithfulness to the Journey | “I have completed”; adept identity as garment; Gnostic escape as done; auto-deification as arrival; performed release; inability to stop moving |
+| **Threshold Fear** | Respect for what matters | Waiting for fear to leave; rehearsed Abyss; ceremonial resolve without a step; waiting until ready or sovereign |
+| **Return** | Faithfulness to the Journey | “I have completed the Journey. I am finished.”; adept identity as garment; Gnostic escape as done; auto-deification as arrival; performed release; inability to stop moving |
 
 **Pattern across traditions (not a new teaching, a mapping observation):**
 
