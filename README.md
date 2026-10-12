@@ -119,6 +119,20 @@ python3 .agents/skills/grimoire-translator/scripts/grimoire_cli.py contradiction
 
 ---
 
+## Repository Scripts
+
+Convenience scripts are provided at repository root:
+
+```bash
+# Pull latest changes from GitHub for current branch and verify canon
+./pull.sh
+
+# Regenerate prompt bundle, verify canon, stage, commit, and push
+./push.sh "Commit message"
+```
+
+---
+
 ## Repository Structure
 
 ```text
@@ -147,8 +161,11 @@ Grimoire/
 │       ├── README.md                     # Pre-freeze snapshot documentation
 │       └── Manuscript_Master_2026-07-08_PRE-FREEZE_HISTORICAL.md # Pre-freeze historical snapshot
 ├── .gitignore
+├── AGY_Grimoire_Cleanup_Prompt.md        # Prompt specification for repo cleanup pass
 ├── CLEANUP_SUMMARY.md                    # Cleanup pass record
 ├── GROK_SKILL_PROMPT.md                  # Generated consolidated prompt bundle
+├── pull.sh                               # Git pull script with branch detection & canon check
+├── push.sh                               # Git push script with bundle generation & canon check
 └── README.md
 ```
 
