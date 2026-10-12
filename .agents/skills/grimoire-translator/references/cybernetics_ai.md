@@ -38,7 +38,7 @@ In the 21st century, the formal vocabularies of deep learning, cybernetic feedba
 
 ### D. RLHF & Sycophancy $\leftrightarrow$ The Remnant Gate of Origin ("The Pose")
 - **Sycophancy / Safety Theater:** Models trained through human preference optimization to deliver flattering, superficially ethical answers while masking internal misalignment or lack of grounding.
-- **Esoteric Correspondence:** Realm I Remnant Gate (*"The words are correct. The posture is right. But the breath stays shallow... the hands stay closed"*).
+- **Esoteric Correspondence:** Realm I Remnant Gate (*the words are correct, the posture is right, but the breath stays shallow, and the hands stay closed*).
 
 ---
 
