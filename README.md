@@ -54,7 +54,7 @@ Translations are audited against four fundamental ontological boundaries:
 
 1. **Sacramental vs. Carceral vs. Simulation**: The Great Wheel insists that reality is embodied, walked on earth, in flesh and breath. It rejects Gnostic *Kenoma-escapism* and transhumanist disembodiment as inversions (Remnants).
 2. **Grace vs. Will vs. Optimization**: Gates in the Wheel do not yield to force, command, or accumulated weight. Receptive stillness (Hesychasm/Origin) is kept strictly separate from Promethean seizure (Thelema/LHP) and algorithmic brute force (Gradient Descent).
-3. **Relational Empathy vs. Compassionless Love**: Realm VI (*Two truths, one space*) demands room for another without erasure. Detached Saturnian objectivity or sycophantic self-erasure are flagged as Remnants.
+3. **Relational Empathy vs. Compassionless Love**: Realm VI (*"Two truths. One space."*) demands room for another without erasure. Detached Saturnian objectivity or sycophantic self-erasure are flagged as Remnants.
 4. **Theosis vs. Auto-Deification vs. Annihilation**: Divine communion by grace (*theosis*) $\neq$ sovereign isolated ego-godhood (*Black Diamond*) $\neq$ ego-dissolution into the Babalon Cup.
 
 ---

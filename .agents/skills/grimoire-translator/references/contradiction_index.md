@@ -32,7 +32,7 @@ When translating across mystical, esoteric, cybernetic, and mythic systems, iden
 - **Rule:** If an operation *commands, forces, computes, guarantees, or seizes*, it carries high Remnant-risk (IV Will Remnant or II Form Remnant). The Wheel's Gates never yield to force.
 
 ### Divide 3: Relational Empathy vs. Compassionless Love
-- **Realm VI (Compassion) / Sacred Heart:** Demands "I can be with you without becoming you, and without requiring you to become me." ("Two truths, one space"). Relational meeting between sovereign subjects without conquest or erasure. *Dilexit Nos* requires outward reparation and community healing.
+- **Realm VI (Compassion) / Sacred Heart:** Demands "I can be with you without becoming you, and without requiring you to become me." ("Two truths. One space."). Relational meeting between sovereign subjects without conquest or erasure. *Dilexit Nos* requires outward reparation and community healing.
 - **Fraternitas Saturni / Left-Hand Path:** Formulates "Love under will, compassionless love." Empathy and sentimentality are treated as evolutionary weaknesses to be purged; the practitioner embraces cold cosmic necessity and isolated karmic responsibility.
 - **Rule:** Fraternitas Saturni's "compassionless love" is an explicit refusal of the meeting. It lands in the VI Remnant (refusal of relation), never as clean Compassion.
 

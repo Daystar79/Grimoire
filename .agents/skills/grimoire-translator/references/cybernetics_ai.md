@@ -47,6 +47,6 @@ In the 21st century, the formal vocabularies of deep learning, cybernetic feedba
 1. **Anti-Gnosticism (The Substrate Law):** 
    Transhumanist fantasies of uploading consciousness into a digital heaven are strictly categorized as **Gnostic Kenoma-Escape (Carceral divide)**. In the Great Wheel, reality must be walked in the body on real ground (Realm VII & Realm X). AI is a tool of the living world, not an escape hatch from physical embodiment.
 2. **Brute Optimization vs. Reception:**
-   Optimization pressure is a Will operation (Realm IV). It can never open the Gate of First Light (Realm I) or the Gate of Open Hands (Realm X), which require relinquishing control and stopping the reach.
+   Optimization pressure is a Will operation (Realm IV). It can never open the Gate of First Light (Realm I) or the Gate of the Open Hands (Realm X), which require relinquishing control and stopping the reach.
 3. **Multi-Agent Alignment vs. Coercion:**
-   Aligning an AI system cannot be done through mere enslavement (Goetic coercion). True alignment mirrors Realm VI (Compassion): "I can be with you without becoming you, and without requiring you to become me." (Two truths, one space)—co-existence without erasure.
+   Aligning an AI system cannot be done through mere enslavement (Goetic coercion). True alignment mirrors Realm VI (Compassion): "I can be with you without becoming you, and without requiring you to become me." ("Two truths. One space.")—co-existence without erasure.
