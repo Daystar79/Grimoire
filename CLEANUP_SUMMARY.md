@@ -1,5 +1,5 @@
 # Cleanup Summary — Grimoire Symbology Translator
-**Branch:** `cleanup/handoff-fixes`  
+**Branch:** `cleanup/handoff-fixes` (merged/pushed to `main`)  
 **Base Commit:** `346dd9b` (branch `main`)  
 **Date:** 2026-10-10  
 **Lead / Reviewer:** Cian Didymos  
@@ -12,7 +12,7 @@ This cleanup pass executes the instructions in `AGY_Grimoire_Cleanup_Prompt.md` 
 
 - **Rule 1 (Absolute Canon Rule):** `Sources/Manuscript_Master.md` was **never modified**.  
   `git diff --stat main Sources/Manuscript_Master.md` returns **0 changes**.
-- **Rule 8 (Local Repository Rule):** All changes reside entirely on the local branch `cleanup/handoff-fixes`. **Nothing has been pushed to remote (`origin`)**, and no pull request has been opened. All work is held locally for Cian's review.
+- **Push status:** The cleanup commits (8daceb4 through b694cb7) are on `origin/main`; the branch `cleanup/handoff-fixes` was also pushed to `origin`.
 - **Verification Suite:** `python3 .agents/skills/grimoire-translator/scripts/verify_canon.py` asserts that every Element, Gate, Key, Remnant Key, and Whisper across all codices, CLI tools, README tables, and crossmap dossiers matches `Manuscript_Master.md` verbatim. Exit code: **0 (PASSED)**.
 
 ---
@@ -23,7 +23,7 @@ This cleanup pass executes the instructions in `AGY_Grimoire_Cleanup_Prompt.md` 
 | :--- | :---: | :--- | :--- |
 | **Task 1: Skill Layer ↔ Manuscript Alignment** | **Done** | `realms_codex.md`, `grimoire_cli.py`, `README.md`, `cybernetics_ai.md`, `contradiction_index.md`, `SKILL.md`, `verify_canon.py` (new) | Corrected Elements, Gates, Keys, Remnant Keys, and Whispers to match manuscript verbatim; authored automated canon verification script. |
 | **Task 2: Fix `[HISTORICAL ONLY]` Tagging** | **Done** | `Sources/Esoteric Symbology Cross-Tradition Mapping.md` | Added Taxonomy & Tag Legend defining entry-level `[HISTORICAL ONLY]` vs inline `*(historical background)*`; replaced misapplied entry tags; unescaped export backslashes (`\[`, `\]`, `\!`). |
-| **Task 3: Enochian & Goetic Living Practice Expansion** | **Done** | `Sources/Esoteric Symbology Cross-Tradition Mapping.md` | Quoted Dee/Kelley First Call and Mathers/Crowley First Conjuration verbatim; added 2 terminology rows to crossmap; annotated living orders with `[VERIFY]` markers. |
+| **Task 3: Enochian & Goetic Living Practice Expansion** | **Done** | `Sources/Esoteric Symbology Cross-Tradition Mapping.md` | Quoted Dee/Kelley First Call and Mathers/Crowley First Conjuration; added 2 terminology rows to crossmap; annotated living orders with `[VERIFY]` markers. Both quotes were added in the cleanup and corrected or flagged in the fix pass (see Fixes 1 and 2). |
 | **Task 4: Restore Works Cited Section** | **Done** | `Sources/Esoteric Symbology Cross-Tradition Mapping.md` | Replaced empty Works Cited section with audit note explaining unpreserved PDF export citations; added separate bibliography for cleanup pass additions. |
 | **Task 5: Rename Handoff & Update Stale References** | **Done** | `Sources/SYMBOLOGY_TRANSLATOR_HANDOFF.md` (renamed from `SYMBIOLOGY_...`) | Fixed "Symbology" spelling; added dated cleanup status block documenting superseded paths and completed fixes; clarified PDF vs MD asset format. |
 | **Task 6: README Accuracy & Usage Paths** | **Done** | `README.md` | Documented dual AI usage paths (A: Agent environments via `.agents/skills/`, B: Grok & chat LLMs via `GROK_SKILL_PROMPT.md`); updated repository tree; aligned Ten Realms table. Preserved License section unchanged. |
@@ -107,18 +107,23 @@ During verification against `Sources/Manuscript_Master.md`, the following struct
    - Numbered **Lessons** (e.g., *Lesson One: The Pose*, *Lesson Two: The Naming*).
    The earlier skill files used mnemonic shorthand names (e.g., *"The Altar over the Fire"*, *"The Managed Inventory"*). In this cleanup pass, those names were properly contextualized in `SKILL.md` and CLI tools as translator shorthand alongside the verbatim manuscript Keys.
 3. **Element Nomenclature:**
-   - Realm V: `Air / Earth / Fire` (previously misstated in early skill files as *Sound / Reflection*).
-   - Realm VIII: `Weave / Rhythm` (previously misstated as *All Elements in Tension*).
-   - Realm IX: `Ether / Boundlessness` (previously misstated as *Void / Edge*).
+   The real earlier skill-layer element values as of commit 346dd9b in `realms_codex.md`, `grimoire_cli.py`, and the README table were:
+   - Realm V Echoes: already correct (`Air / Earth / Fire`).
+   - Realm VI Compassion: `Water / Depth` → **Water / Resonance**
+   - Realm VII Presence: `Flesh / Pulse` → **Earth / Weight**
+   - Realm VIII Integration: `Weave / Cloth` → **Weave / Rhythm**
+   - Realm IX Threshold Fear: `Void / Night` → **Ether / Boundlessness**
+   - Realm X Return: `Ground / Open Hands` → **Every Element and None**
    All downstream references are now aligned with the manuscript.
 
 ---
 
 ## 6. Local Git Commit Log
 
-All commits were made sequentially on local branch `cleanup/handoff-fixes`:
+All commits were made sequentially on branch `cleanup/handoff-fixes` (merged and pushed to `origin/main`):
 
 ```text
+b694cb7 Task 8: Regenerate prompt bundle, verify canon, and add cleanup summary
 befad88 Task 7: Crossmap second pass and forced-fit review
 6bcd232 Task 6: Document dual AI skill usage paths and update repository tree in README
 1888323 Task 5: Rename handoff file and add cleanup status update block
@@ -126,6 +131,4 @@ befad88 Task 7: Crossmap second pass and forced-fit review
 8daceb4 Task 1: Re-align skill layer, codex, and CLI with manuscript canon
 ```
 
-*(Task 8 verification and summary committed following this report).*
-
-**Confirmation:** No commits have been pushed to `origin`. Working tree is clean and ready for Cian's review.
+**Status:** Cleanup commits are merged into `main` and pushed to `origin`.

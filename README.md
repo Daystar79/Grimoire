@@ -143,6 +143,7 @@ Grimoire/
 │   ├── Esoteric Symbology Cross-Tradition Mapping.md
 │   └── SYMBOLOGY_TRANSLATOR_HANDOFF.md  # Project design & architectural handoff
 ├── .gitignore
+├── CLEANUP_SUMMARY.md                    # Cleanup pass record
 ├── GROK_SKILL_PROMPT.md                  # Generated consolidated prompt bundle
 └── README.md
 ```
