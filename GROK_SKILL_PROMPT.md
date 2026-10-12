@@ -14,7 +14,7 @@
 
 # Grimoire Translator: Mythic, Esoteric & Cybernetic Translation Engine
 
-The Grimoire Translator is a cross-system comparative translation skill. It treats **The Great Wheel** ([`Manuscript_Master.md`](../../Sources/Manuscript_Master.md)) as an immutable, closed Rosetta Stone to map meaning across living esoteric lineages and modern frontier AI/cybernetic frameworks without syncretic flattening.
+The Grimoire Translator is a cross-system comparative translation skill. It treats **The Great Wheel** ([`Wanderers_Guide_Complete.md`](../../Sources/Wanderers_Guide_Complete.md)) as an immutable, closed Rosetta Stone to map meaning across living esoteric lineages and modern frontier AI/cybernetic frameworks without syncretic flattening.
 
 ---
 
@@ -158,7 +158,7 @@ When executing deep analyses, review the specialized documentation:
 <!-- ============================================================ -->
 
 # The Great Wheel: Ten Realms Codex
-**Source of Truth:** `Manuscript_Master.md` (Closed Target System)
+**Source of Truth:** `Wanderers_Guide_Complete.md` (Closed Target System)
 
 The Great Wheel is a spiral of ten simultaneous states of aligned being. The Traveler stands before all ten Gates at all times; what changes is the depth from which they approach. Gates do not open to effort, force, knowledge, or good intentions—they open to a quiet shift in the quality of seeing.
 
@@ -218,7 +218,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 - **Gatekeeper's Whisper:** *"The echo carries what you sent. Listen for what you did not mean to."*
 - **The Key:** *"I see what returns, and I do not look away."*
 - **The Remnant:** Hearing the echo and calling it instruction; interpreting the light before the flash has faded and calling the interpretation wisdom.
-- **The Remnant Gate:** Opens in a moment of sharp conviction; mistaking confirmation of the self's story for revelation; ground echoing the same on the other side.
+- **The Remnant Gate:** Opens in a moment of sharp conviction; frictionless entry by coincidence and pattern recognition; mistaking confirmation of the self's story for revelation; ground echoing the same on the other side.
 - **The Remnant Key:** *"The echo proves I was right all along."*
 - **Threshold / Movement:** Unguarded perception; lightning comes and the outline appears plain and uncorrected; hearing return as return with nothing added.
 
@@ -230,7 +230,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 - **Gatekeeper's Whisper:** *"You cannot meet another if you have left yourself at the door."*
 - **The Key:** *"I can be with you without becoming you, and without requiring you to become me."*
 - **The Remnant:** Loving until the self dissolves into what the other needs, or expanding until becoming the room the other lives in; leaving the other slightly less themselves.
-- **The Remnant Gate:** Mistaking intensity for presence; surging emotion and impact mistaken for meeting; connection where the self is never still enough to be reached.
+- **The Remnant Gate:** Mistaking intensity for presence; entering through bodily accommodation and self-erasure; surging emotion mistaken for meeting; opens when one arrives as two, and leaves as none.
 - **The Remnant Key:** *"If I give enough of myself, we will finally become one."*
 - **Threshold / Movement:** Both presences arriving at the same moment without planning it; settling into the same stillness; meeting rather than merging.
 

@@ -231,6 +231,7 @@ This section records the resolution of items 1–9 identified during post-cleanu
 ### Commit Log (Fix Pass)
 
 ```text
+83082ad Fix 9: Regenerate prompt bundle, verify canon, and record fix pass in summary
 fda77c6 Fix 8: Make verify_canon.py strict with per-Realm checks and quoted sweep
 3678fec Fix 7: Correct CLEANUP_SUMMARY.md push status, element list, commit log, and add file to README tree
 2e21e91 Fix 6: Revert Goetic row Partial landing to unmapped and update section 8 change log
@@ -242,3 +243,97 @@ f5a3e21 Fix 1: Attribute Enochian First Call to Golden Dawn/Crowley pronunciatio
 ```
 
 **Status:** Fix pass commits are local only on `main`. Nothing has been pushed to remote.
+
+---
+
+## 8. Canon switch (2026-10-11)
+
+This section records the switch of the Grimoire's canon source from the pre-freeze snapshot `Manuscript_Master.md` to the book's true canonical source of truth `Wanderers_Guide_Complete.md`.
+
+### Rationale
+
+From the book's own locked rule in `/mnt/Books/CompletedBooks/A Wanderers Guide To the Gates/Drafts/CANON.md` (locked 2026-09-01):
+
+> **Edit this file only for on-page prose:**
+> - `Drafts/Wanderers_Guide_Complete.md`
+>
+> `Drafts/Manuscript_Master.md` — pre-freeze snapshot. Historical only.
+
+The Grimoire previously pointed at `Manuscript_Master.md` (a 2026-07-08 pre-freeze snapshot). With the publication release prepared in the upstream repository, canon was switched to the authoritative source file. Per user instruction, the Grimoire adopts the latest upstream HEAD revision (commit `026c7fa`), which restored the canonical Realm VIII Rue Remnant Tale (Seven Rites sequence).
+
+### Files Added, Renamed, and Updated
+
+- **Added:**
+  - `Sources/Wanderers_Guide_Complete.md`: Master canon text copied byte-for-byte from `/mnt/Books/CompletedBooks/A Wanderers Guide To the Gates/Drafts/Wanderers_Guide_Complete.md` (sha256 `7fb1bff47d46ca40379824e7c8cb3c45448dd7436cd3c157e3ed662c6a980425`, 4,026 lines).
+  - `Sources/CANON.md`: Canon authority statement, upstream PC path, verbatim upstream rule, sha256 checksum, and byte-for-byte synchronization policy.
+  - `Sources/Historical/README.md`: Explanatory record for the pre-freeze historical snapshot.
+- **Renamed (100% similarity, pure git rename):**
+  - `Sources/Manuscript_Master.md` → `Sources/Historical/Manuscript_Master_2026-07-08_PRE-FREEZE_HISTORICAL.md` (byte-identical to upstream pre-freeze snapshot, sha256 `d10a3732a7e1fdef2c0537e9851b3db8c7061372ee846a005717da4ee72fa5e0`, 2,798 lines preserved for audit trail).
+- **Updated Pointers:**
+  - `README.md`: Updated canon link and repository directory tree to include `CANON.md`, `Wanderers_Guide_Complete.md`, and `Historical/` snapshot.
+  - `.agents/skills/grimoire-translator/SKILL.md`: Updated canon link to `Wanderers_Guide_Complete.md`.
+  - `.agents/skills/grimoire-translator/references/realms_codex.md`: Updated source of truth header to `Wanderers_Guide_Complete.md`.
+  - `Core/Symbology_Translator_Crossmap.md`: Updated inputs list and closed cosmology note to `Wanderers_Guide_Complete.md`.
+  - `Sources/SYMBOLOGY_TRANSLATOR_HANDOFF.md`: Added dated status update note for canon switch; updated Section 2 assets table to point at `Wanderers_Guide_Complete.md`.
+  - `.agents/skills/grimoire-translator/scripts/verify_canon.py`: Re-pointed `CANON_PATH` at `Sources/Wanderers_Guide_Complete.md`; adapted parser to Markdown chapter headers (`^# Chapter ...`), section headers (`## ...`), and lesson titles (`### ...`).
+  - `GROK_SKILL_PROMPT.md`: Regenerated from source files via `bundle_prompt.py`.
+
+### Core Fields Invariance Audit (Task 2a)
+
+An exhaustive comparison between `Sources/Historical/Manuscript_Master_2026-07-08_PRE-FREEZE_HISTORICAL.md` and `Sources/Wanderers_Guide_Complete.md` verified **zero wording differences in all ten Realms** across every core field:
+
+| Realm | Element | Gate Name | Gatekeeper Whisper | The Key | The Remnant Key | Lessons Titles (5) | Remnant Lessons Titles (5) | Wording Diffs |
+|:---|:---|:---|:---|:---|:---|:---|:---|:---|
+| I Origin | Dawn / Breath | The Gate of First Light | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+| II Form | Stone / Discipline | The Gate of Form | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+| III Identity | Wind / Sight | The Gate of Direction | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+| IV Will | Fire / Radiance | The Gate of Revelation | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+| V Echoes | Air / Earth / Fire | The Gate of the Open Ground | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+| VI Compassion | Water / Resonance | The Gate of Shared Presence | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+| VII Presence | Earth / Weight | The Gate of the Living Moment | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+| VIII Integration | Weave / Rhythm | The Gate of the Woven Passage | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+| IX Threshold Fear | Ether / Boundlessness | The Gate of the Last Light | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+| X Return | Every Element and None | The Gate of the Open Hands | Identical | Identical | Identical | Identical (5) | Identical (5) | 0 |
+
+Formatting notes:
+- The Complete file sets Keys in italics (`*I am aware...*` in I–II; `*”Follow what moves.”*` with closing quotes `”…”` on both sides in III–X).
+- The Complete file sets Remnant Keys in italics with closing quotes `”…”` on both sides (`*”I understand awareness.”*`).
+- The Complete file sets Whispers in curly quotes (`“Let the first light reach you...”`).
+- The skill layer maintains clean straight double quotes (`*"Key"*`) as standard display style without adopting typesetting quirks.
+
+### Paraphrase Enrichements & Quote Verification (Tasks 2b & 4)
+
+- `realms_codex.md:62` (V Remnant Gate): Enriched paraphrase with unquoted clause on frictionless entry through coincidence and pattern recognition.
+- `realms_codex.md:74` (VI Remnant Gate): Enriched paraphrase with unquoted clause on entering through bodily accommodation and self-erasure ("opens when one arrives as two, and leaves as none").
+- `realms_codex.md` & `Core/Symbology_Translator_Crossmap.md`: Verified no occurrences of pre-freeze VII Remnant Threshold phrasing (`"when you have never felt"`).
+- Quoted-text sweep across all skill and reference markdown files verified 156 quoted passages against `Wanderers_Guide_Complete.md` with **0 failures**.
+
+### Verifier & Mutation Self-Tests (Task 3)
+
+`python3 .agents/skills/grimoire-translator/scripts/verify_canon.py`:
+- `realms_codex.md sections`: 10 checked
+- `grimoire_cli.py REALMS`: 10 checked
+- `README.md table rows`: 10 checked
+- `Symbology_Translator_Crossmap.md dossiers`: 10 checked
+- `cybernetics_ai.md table rows`: 10 checked
+- `SKILL.md Remnant Keys`: 10 checked
+- `contradiction_index.md canon quotes`: 1 checked
+- `Quoted-text sweep (>=12 chars)`: 156 checked
+- Total failures: 0 (PASSED).
+
+**Mutation Self-Tests:**
+1. Swapped two Keys between Realms in `realms_codex.md` → Verifier failed with exit code 1.
+2. Pointed `CANON_PATH` at temporary copy with altered Key → Verifier failed with exit code 1.
+3. Deleted one chapter heading in canon → Verifier failed with exit code 1.
+4. Clean repository tree → Verifier passed with exit code 0.
+
+### Commit Log (Canon Switch)
+
+```text
+ffc4cc8 Canon 4: Re-verify quoted passages against Complete canon
+a79bd72 Canon 3: Re-point verify_canon.py at Wanderers_Guide_Complete.md with chapter and lesson checks
+5c82591 Canon 2: Verify core fields invariance and check codex paraphrases against Complete canon
+1f3871e Canon 1: Switch canon to Wanderers_Guide_Complete.md and archive historical snapshot
+```
+
+**Status:** All Canon Switch commits are local only on `main`. Nothing has been pushed to remote.
