@@ -59,7 +59,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 - **Gatekeeper's Whisper:** *"The echo carries what you sent. Listen for what you did not mean to."*
 - **The Key:** *"I see what returns, and I do not look away."*
 - **The Remnant:** Hearing the echo and calling it instruction; interpreting the light before the flash has faded and calling the interpretation wisdom.
-- **The Remnant Gate:** Opens in a moment of sharp conviction; mistaking confirmation of the self's story for revelation; ground echoing the same on the other side.
+- **The Remnant Gate:** Opens in a moment of sharp conviction; frictionless entry by coincidence and pattern recognition; mistaking confirmation of the self's story for revelation; ground echoing the same on the other side.
 - **The Remnant Key:** *"The echo proves I was right all along."*
 - **Threshold / Movement:** Unguarded perception; lightning comes and the outline appears plain and uncorrected; hearing return as return with nothing added.
 
@@ -71,7 +71,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 - **Gatekeeper's Whisper:** *"You cannot meet another if you have left yourself at the door."*
 - **The Key:** *"I can be with you without becoming you, and without requiring you to become me."*
 - **The Remnant:** Loving until the self dissolves into what the other needs, or expanding until becoming the room the other lives in; leaving the other slightly less themselves.
-- **The Remnant Gate:** Mistaking intensity for presence; surging emotion and impact mistaken for meeting; connection where the self is never still enough to be reached.
+- **The Remnant Gate:** Mistaking intensity for presence; entering through bodily accommodation and self-erasure; surging emotion mistaken for meeting; opens when one arrives as two, and leaves as none.
 - **The Remnant Key:** *"If I give enough of myself, we will finally become one."*
 - **Threshold / Movement:** Both presences arriving at the same moment without planning it; settling into the same stillness; meeting rather than merging.
 
