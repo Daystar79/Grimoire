@@ -1,5 +1,5 @@
 # The Great Wheel: Ten Realms Codex
-**Source of Truth:** `Manuscript_Master.md` (Closed Target System)
+**Source of Truth:** `Wanderers_Guide_Complete.md` (Closed Target System)
 
 The Great Wheel is a spiral of ten simultaneous states of aligned being. The Traveler stands before all ten Gates at all times; what changes is the depth from which they approach. Gates do not open to effort, force, knowledge, or good intentions—they open to a quiet shift in the quality of seeing.
 

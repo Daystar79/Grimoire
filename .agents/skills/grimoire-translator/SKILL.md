@@ -9,7 +9,7 @@ description: >-
 
 # Grimoire Translator: Mythic, Esoteric & Cybernetic Translation Engine
 
-The Grimoire Translator is a cross-system comparative translation skill. It treats **The Great Wheel** ([`Manuscript_Master.md`](../../Sources/Manuscript_Master.md)) as an immutable, closed Rosetta Stone to map meaning across living esoteric lineages and modern frontier AI/cybernetic frameworks without syncretic flattening.
+The Grimoire Translator is a cross-system comparative translation skill. It treats **The Great Wheel** ([`Wanderers_Guide_Complete.md`](../../Sources/Wanderers_Guide_Complete.md)) as an immutable, closed Rosetta Stone to map meaning across living esoteric lineages and modern frontier AI/cybernetic frameworks without syncretic flattening.
 
 ---
 

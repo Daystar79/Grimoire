@@ -1,0 +1,1 @@
+HISTORICAL ONLY. Pre-freeze snapshot of *A Wanderer's Guide to the Gates* (2026-07-08). Not canon. Canon is `Sources/Wanderers_Guide_Complete.md` per the book's `Drafts/CANON.md`. Kept for audit of the Grimoire's 2026-10 cleanup, which was verified against this snapshot.

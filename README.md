@@ -10,7 +10,7 @@ Whether expressed through ancient liturgical prayers, alchemical emblems, occult
 
 **Grimoire** is built on a core principle: **Translate the operation without flattening the theology.**
 
-It treats *The Great Wheel* ([`Sources/Manuscript_Master.md`](Sources/Manuscript_Master.md)) as an immutable, closed Rosetta Stone to map meaning across diverse frameworks while rigorously flagging false friends, irreconcilable ontologies, and psychological shadow traps ("Remnants").
+It treats *The Great Wheel* ([`Sources/Wanderers_Guide_Complete.md`](Sources/Wanderers_Guide_Complete.md)) as an immutable, closed Rosetta Stone to map meaning across diverse frameworks while rigorously flagging false friends, irreconcilable ontologies, and psychological shadow traps ("Remnants").
 
 ---
 
@@ -139,9 +139,13 @@ Grimoire/
 ├── Core/
 │   └── Symbology_Translator_Crossmap.md  # Comprehensive cross-map & dossiers
 ├── Sources/
-│   ├── Manuscript_Master.md              # Master text: A Wanderer’s Guide to the Gates
+│   ├── CANON.md                          # Canon authority, upstream source & sync policy
+│   ├── Wanderers_Guide_Complete.md       # Master canon: A Wanderer’s Guide to the Gates
 │   ├── Esoteric Symbology Cross-Tradition Mapping.md
-│   └── SYMBOLOGY_TRANSLATOR_HANDOFF.md  # Project design & architectural handoff
+│   ├── SYMBOLOGY_TRANSLATOR_HANDOFF.md  # Project design & architectural handoff
+│   └── Historical/
+│       ├── README.md                     # Pre-freeze snapshot documentation
+│       └── Manuscript_Master_2026-07-08_PRE-FREEZE_HISTORICAL.md # Pre-freeze historical snapshot
 ├── .gitignore
 ├── CLEANUP_SUMMARY.md                    # Cleanup pass record
 ├── GROK_SKILL_PROMPT.md                  # Generated consolidated prompt bundle

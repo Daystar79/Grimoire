@@ -3,14 +3,14 @@
 
 **File:** `Core/Symbology_Translator_Crossmap.md`  
 **Date:** 2026-10-10  
-**Inputs:** `Sources/Esoteric Symbology Cross-Tradition Mapping.md` (cleaned external layer post-cleanup pass) · `Sources/Manuscript_Master.md` (closed target cosmology)  
+**Inputs:** `Sources/Esoteric Symbology Cross-Tradition Mapping.md` (cleaned external layer post-cleanup pass) · `Sources/Wanderers_Guide_Complete.md` (closed target cosmology)  
 **Status:** Second mapping pass (post-cleanup). Forced-fit review and historical divergence audit.
 
 ---
 
 ## How to read this file
 
-`Manuscript_Master.md` is closed. Nothing below rewrites, corrects, expands, or invents inside the Wheel. Realm language is used only to *locate* a landing.
+`Wanderers_Guide_Complete.md` is closed. Nothing below rewrites, corrects, expands, or invents inside the Wheel. Realm language is used only to *locate* a landing.
 
 Matches are **functional and experiential**, not name-matches.
 

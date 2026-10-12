@@ -3,7 +3,8 @@
 **Owner:** Cian Didymos / Robert  
 **Status:** External research layer complete (needs cleanup). Cosmology master ready. Mapping phase next.
 
-> ### **Status update (cleanup pass — 2026-10-10)**
+> ### **Status update (cleanup pass — 2026-10-10 & canon switch — 2026-10-11)**
+> - **Canon Switch (2026-10-11):** Canon switched to `Sources/Wanderers_Guide_Complete.md`; `Manuscript_Master.md` moved to `Sources/Historical/Manuscript_Master_2026-07-08_PRE-FREEZE_HISTORICAL.md` as a pre-freeze snapshot.
 > - **In-Repo Asset:** `Sources/Esoteric Symbology Cross-Tradition Mapping.md` replaced the original PDF export in the repository.
 > - **Audit of Requested Fixes (§4):** Fixes 1–2 (complete visual correspondence table, compressed historical origins) were verified complete. Fixes 3–4 (systematic `HISTORICAL ONLY` / `*(historical background)*` tagging, and expanded Enochian / Goetic visual, language, and terminology layers) were completed in this pass.
 > - **First Mapping Pass:** Completed and located at `Core/Symbology_Translator_Crossmap.md`.
@@ -31,7 +32,7 @@ The translator must produce clean one-way and two-way correspondences **into** t
 | File | Description |
 |------|-------------|
 | `Esoteric Symbology Cross-Tradition Mapping.pdf` | Gemini Deep Research export (14 pages). Original export; in-repo working copy is `Sources/Esoteric Symbology Cross-Tradition Mapping.md`. Living traditions only. |
-| `Manuscript_Master.md` | Full master of *A Wanderer’s Guide to the Gates* (Ten Realms). Source of truth. |
+| `Wanderers_Guide_Complete.md` | Full master of *A Wanderer’s Guide to the Gates* (Ten Realms). Source of truth. |
 
 ---
 
