@@ -8,6 +8,8 @@ import sys
 import re
 from pathlib import Path
 
+sys.dont_write_bytecode = True
+
 REPO_ROOT = Path(__file__).resolve().parents[4]
 MANUSCRIPT_PATH = REPO_ROOT / "Sources" / "Manuscript_Master.md"
 CODEX_PATH = REPO_ROOT / ".agents" / "skills" / "grimoire-translator" / "references" / "realms_codex.md"

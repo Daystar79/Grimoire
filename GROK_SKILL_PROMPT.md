@@ -166,7 +166,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### I — The Realm of Origin
 - **Subtitle / Element:** Dawn / Breath
-- **Gate:** The Gate of First Light (*"Appears in a moment the Traveler did not prepare for; opens to the one who stopped insisting on readiness"*)
+- **Gate:** The Gate of First Light (*appears in a moment the Traveler did not prepare for; opens to the one who stopped insisting on readiness*)
 - **Gatekeeper's Whisper:** *"Let the first light reach you before you reach for it."*
 - **The Key:** *"I am aware that I am aware."*
 - **The Remnant:** Announcing the journey; reaching toward stillness; cupping fire that has already gone out.
@@ -178,7 +178,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### II — The Realm of Form
 - **Subtitle / Element:** Stone / Discipline
-- **Gate:** The Gate of Form (*"Opens when the tool is picked up not to protect the self, but to do the work"*)
+- **Gate:** The Gate of Form (*opens when the tool is picked up not to protect the self, but to do the work*)
 - **Gatekeeper's Whisper:** *"You cannot shape what you refuse to touch."*
 - **The Key:** *"Form is the shape through which intention becomes real."*
 - **The Remnant:** The architecture becomes the point; the altar is polished while the fire goes cold; the rule replaces the reality.
@@ -190,7 +190,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### III — The Realm of Identity
 - **Subtitle / Element:** Wind / Sight
-- **Gate:** The Gate of Direction (*"Opens to the step taken without looking to see who is watching"*)
+- **Gate:** The Gate of Direction (*opens to the step taken without looking to see who is watching*)
 - **Gatekeeper's Whisper:** *"You cannot follow every wind and still hear your own."*
 - **The Key:** *"Follow what moves."*
 - **The Remnant:** Entering the wind and learning the cost of moving against it is too high; becoming responsive to what each room requires; living inside an adaptation.
@@ -202,7 +202,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### IV — The Realm of Will
 - **Subtitle / Element:** Fire / Radiance
-- **Gate:** The Gate of Revelation (*"Opens when the heat is directed inward and the demand for a spectacle is dropped"*)
+- **Gate:** The Gate of Revelation (*opens when the heat is directed inward and the demand for a spectacle is dropped*)
 - **Gatekeeper's Whisper:** *"The fire shows you what you are. Do not look away."*
 - **The Key:** *"Burn without consuming."*
 - **The Remnant:** Fire as domination; mistaking eruption for revelation; burning the vessel and calling the ash purity.
@@ -214,7 +214,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### V — The Realm of Echoes
 - **Subtitle / Element:** Air / Earth / Fire
-- **Gate:** The Gate of the Open Ground (*"Appears in a moment of unguarded stillness; opens not to the one who understands the echo but to the one who has stopped needing it to say anything beyond what it actually says"*)
+- **Gate:** The Gate of the Open Ground (*appears in a moment of unguarded stillness; opens not to the one who understands the echo but to the one who has stopped needing it to say anything beyond what it actually says*)
 - **Gatekeeper's Whisper:** *"The echo carries what you sent. Listen for what you did not mean to."*
 - **The Key:** *"I see what returns, and I do not look away."*
 - **The Remnant:** Hearing the echo and calling it instruction; interpreting the light before the flash has faded and calling the interpretation wisdom.
@@ -226,7 +226,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### VI — The Realm of Compassion
 - **Subtitle / Element:** Water / Resonance
-- **Gate:** The Gate of Shared Presence (*"Forms in the space between two beings who have stopped performing for each other; opens wherever two truths occupy the same space without either requiring the other to be smaller"*)
+- **Gate:** The Gate of Shared Presence (*forms in the space between two beings who have stopped performing for each other; opens wherever two truths occupy the same space without either requiring the other to be smaller*)
 - **Gatekeeper's Whisper:** *"You cannot meet another if you have left yourself at the door."*
 - **The Key:** *"I can be with you without becoming you, and without requiring you to become me."*
 - **The Remnant:** Loving until the self dissolves into what the other needs, or expanding until becoming the room the other lives in; leaving the other slightly less themselves.
@@ -238,7 +238,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### VII — The Realm of Presence
 - **Subtitle / Element:** Earth / Weight
-- **Gate:** The Gate of the Living Moment (*"A deepening into the one place that has always been here; opens when attention stops being divided between where the Traveler is and where they are not"*)
+- **Gate:** The Gate of the Living Moment (*a deepening into the one place that has always been here; opens when attention stops being divided between where the Traveler is and where they are not*)
 - **Gatekeeper's Whisper:** *"The moment is already here. Let it find you."*
 - **The Key:** *"I am here. This is enough."*
 - **The Remnant:** Inability to stop moving; filling silence before it can fill them; hovering just above the surface of one's own life, calling motion aliveness and missing actual weight.
@@ -250,7 +250,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### VIII — The Realm of Integration
 - **Subtitle / Element:** Weave / Rhythm
-- **Gate:** The Gate of the Woven Passage (*"Has no frame, no visible threshold; occurs as the sudden, quiet recognition that passage has already taken place and the threads were always one cloth"*)
+- **Gate:** The Gate of the Woven Passage (*has no frame, no visible threshold; occurs as the sudden, quiet recognition that passage has already taken place and the threads were always one cloth*)
 - **Gatekeeper's Whisper:** *"You have gathered seven fires. Now let them become one."*
 - **The Key:** *"There is nothing left to add and nothing left to remove."*
 - **The Remnant:** Carrying seven things in seven separate hands; maintaining compartments across contexts; invisible labor and exhaustion of keeping the threads apart.
@@ -262,7 +262,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### IX — The Realm of Threshold Fear
 - **Subtitle / Element:** Ether / Boundlessness
-- **Gate:** The Gate of the Last Light (*"A seam of pale illumination flickering at the edge of vision; appears only when the Traveler steps with the fear still in their hands"*)
+- **Gate:** The Gate of the Last Light (*a seam of pale illumination flickering at the edge of vision; appears only when the Traveler steps with the fear still in their hands*)
 - **Gatekeeper's Whisper:** *"The door appears only when you move."*
 - **The Key:** *"I step because the fear is mine."*
 - **The Remnant:** Believing trembling at the edge is evidence of insufficiency; waiting for readiness that never comes; mistaking the most honest signal for a reason to stay.
@@ -274,7 +274,7 @@ The Great Wheel is a spiral of ten simultaneous states of aligned being. The Tra
 
 ### X — The Realm of Return
 - **Subtitle / Element:** Every Element and None
-- **Gate:** The Gate of the Open Hands (*"Appears when the Traveler stops arranging themselves; opens when the hands, without deciding to, simply open"*)
+- **Gate:** The Gate of the Open Hands (*appears when the Traveler stops arranging themselves; opens when the hands, without deciding to, simply open*)
 - **Gatekeeper's Whisper:** *"You can set it down."*
 - **The Key:** *"The end is the beginning seen from the other side."*
 - **The Remnant:** Keeping moving after nine Realms; clinging to the story of the Journey, the effort, the familiar grief, and the identity built across the Wheel; hands staying closed.
@@ -324,7 +324,7 @@ When translating across mystical, esoteric, cybernetic, and mythic systems, iden
 - **Rule:** If an operation *commands, forces, computes, guarantees, or seizes*, it carries high Remnant-risk (IV Will Remnant or II Form Remnant). The Wheel's Gates never yield to force.
 
 ### Divide 3: Relational Empathy vs. Compassionless Love
-- **Realm VI (Compassion) / Sacred Heart:** Demands "I can be with you without becoming you, and without requiring you to become me." ("Two truths, one space"). Relational meeting between sovereign subjects without conquest or erasure. *Dilexit Nos* requires outward reparation and community healing.
+- **Realm VI (Compassion) / Sacred Heart:** Demands "I can be with you without becoming you, and without requiring you to become me." ("Two truths. One space."). Relational meeting between sovereign subjects without conquest or erasure. *Dilexit Nos* requires outward reparation and community healing.
 - **Fraternitas Saturni / Left-Hand Path:** Formulates "Love under will, compassionless love." Empathy and sentimentality are treated as evolutionary weaknesses to be purged; the practitioner embraces cold cosmic necessity and isolated karmic responsibility.
 - **Rule:** Fraternitas Saturni's "compassionless love" is an explicit refusal of the meeting. It lands in the VI Remnant (refusal of relation), never as clean Compassion.
 
@@ -395,7 +395,7 @@ In the 21st century, the formal vocabularies of deep learning, cybernetic feedba
 
 ### D. RLHF & Sycophancy $\leftrightarrow$ The Remnant Gate of Origin ("The Pose")
 - **Sycophancy / Safety Theater:** Models trained through human preference optimization to deliver flattering, superficially ethical answers while masking internal misalignment or lack of grounding.
-- **Esoteric Correspondence:** Realm I Remnant Gate (*"The words are correct. The posture is right. But the breath stays shallow... the hands stay closed"*).
+- **Esoteric Correspondence:** Realm I Remnant Gate (*the words are correct, the posture is right, but the breath stays shallow, and the hands stay closed*).
 
 ---
 
@@ -404,9 +404,9 @@ In the 21st century, the formal vocabularies of deep learning, cybernetic feedba
 1. **Anti-Gnosticism (The Substrate Law):** 
    Transhumanist fantasies of uploading consciousness into a digital heaven are strictly categorized as **Gnostic Kenoma-Escape (Carceral divide)**. In the Great Wheel, reality must be walked in the body on real ground (Realm VII & Realm X). AI is a tool of the living world, not an escape hatch from physical embodiment.
 2. **Brute Optimization vs. Reception:**
-   Optimization pressure is a Will operation (Realm IV). It can never open the Gate of First Light (Realm I) or the Gate of Open Hands (Realm X), which require relinquishing control and stopping the reach.
+   Optimization pressure is a Will operation (Realm IV). It can never open the Gate of First Light (Realm I) or the Gate of the Open Hands (Realm X), which require relinquishing control and stopping the reach.
 3. **Multi-Agent Alignment vs. Coercion:**
-   Aligning an AI system cannot be done through mere enslavement (Goetic coercion). True alignment mirrors Realm VI (Compassion): "I can be with you without becoming you, and without requiring you to become me." (Two truths, one space)—co-existence without erasure.
+   Aligning an AI system cannot be done through mere enslavement (Goetic coercion). True alignment mirrors Realm VI (Compassion): "I can be with you without becoming you, and without requiring you to become me." ("Two truths. One space.")—co-existence without erasure.
 
 
 ---
