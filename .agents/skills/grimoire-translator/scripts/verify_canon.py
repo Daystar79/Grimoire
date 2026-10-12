@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 verify_canon.py: Strict verification of all Gates, Keys, Remnant Keys, Whispers,
-Elements, and quoted text against canon in Sources/Manuscript_Master.md.
+Elements, and quoted text against canon in Sources/Wanderers_Guide_Complete.md.
 """
 
 import sys
@@ -11,7 +11,7 @@ from pathlib import Path
 sys.dont_write_bytecode = True
 
 REPO_ROOT = Path(__file__).resolve().parents[4]
-MANUSCRIPT_PATH = REPO_ROOT / "Sources" / "Manuscript_Master.md"
+CANON_PATH = REPO_ROOT / "Sources" / "Wanderers_Guide_Complete.md"
 CODEX_PATH = REPO_ROOT / ".agents" / "skills" / "grimoire-translator" / "references" / "realms_codex.md"
 CLI_PATH = REPO_ROOT / ".agents" / "skills" / "grimoire-translator" / "scripts" / "grimoire_cli.py"
 README_PATH = REPO_ROOT / "README.md"
@@ -25,28 +25,35 @@ ROMAN_TO_INT = {"I": 1, "II": 2, "III": 3, "IV": 4, "V": 5, "VI": 6, "VII": 7, "
 INT_TO_ROMAN = {v: k for k, v in ROMAN_TO_INT.items()}
 
 def normalize(text: str) -> str:
-    """Normalize curly quotes, markdown formatting, and whitespace."""
+    """Normalize curly quotes, markdown formatting, HTML, and whitespace per rule 2c."""
     if not text:
         return ""
     t = text.strip()
+    # 1. Map curly/typographic quotes to straight
     t = t.replace('“', '"').replace('”', '"').replace('„', '"').replace('″', '"')
     t = t.replace('’', "'").replace('‘', "'").replace('′', "'")
+    # 2. Remove markdown emphasis
     t = re.sub(r'[\*_]', '', t)
+    # 3. Strip HTML tags
     t = re.sub(r'<[^>]+>', '', t)
+    # 4. Collapse whitespace
     t = " ".join(t.split())
+    # 5. Strip leading/trailing quote marks
     t = t.strip("\"' ")
     return t
 
 def norm_gate(g: str) -> str:
+    """Gate normalization with optional leading 'The ' allowed."""
     n = normalize(g)
     if n.startswith("The "):
         n = n[4:].strip()
     return n
 
-def parse_canon(ms_text: str):
-    chap_matches = list(re.finditer(r"^Chapter ([IVX]+) — The Realm of (.+)$", ms_text, re.M))
+def parse_canon(canon_text: str):
+    """Parse canon chapters from Wanderers_Guide_Complete.md."""
+    chap_matches = list(re.finditer(r"^# Chapter ([IVX]+) — The Realm of (.+)$", canon_text, re.M))
     if len(chap_matches) != 10:
-        print(f"FAIL: Expected exactly 10 chapters in manuscript, found {len(chap_matches)}")
+        print(f"FAIL: Expected exactly 10 chapters in Wanderers_Guide_Complete.md, found {len(chap_matches)}")
         sys.exit(1)
         
     canon = {}
@@ -54,19 +61,38 @@ def parse_canon(ms_text: str):
         num = m.group(1)
         name = m.group(2).strip()
         start = m.end()
-        end = chap_matches[i+1].start() if i + 1 < len(chap_matches) else len(ms_text)
-        chap_text = ms_text[start:end]
+        next_m = re.search(r"^# (?:Chapter|Colophon|Appendix)", canon_text[start:], re.M)
+        end = start + next_m.start() if next_m else len(canon_text)
+        chap_text = canon_text[start:end]
+        
         elem_lines = [l.strip() for l in chap_text.splitlines() if l.strip()]
         elem = elem_lines[0] if elem_lines else ""
-        gate_m = re.search(r"The Gate — (.+)", chap_text)
+        gate_m = re.search(r"## The Gate — (.+)", chap_text)
         gate = gate_m.group(1).strip() if gate_m else ""
-        whisper_m = re.search(r"Gatekeeper[’\']s Whisper", chap_text)
+        whisper_m = re.search(r"## Gatekeeper[’\']s Whisper", chap_text)
         whisper = [l.strip() for l in chap_text[whisper_m.end():].splitlines() if l.strip()][0] if whisper_m else ""
-        key_m = re.search(r"^The Key$", chap_text, re.M)
+        key_m = re.search(r"## The Key", chap_text)
         key = [l.strip() for l in chap_text[key_m.end():].splitlines() if l.strip()][0] if key_m else ""
-        rem_m = re.search(r"^The Remnant Key$", chap_text, re.M)
+        rem_m = re.search(r"## The Remnant Key", chap_text)
         rem_key = [l.strip() for l in chap_text[rem_m.end():].splitlines() if l.strip()][0] if rem_m else ""
         
+        lessons_m = re.search(r"## The Lessons\s*(.*?)(?=## The Remnant Lessons|\Z)", chap_text, re.S)
+        lessons = re.findall(r"^###\s+([^\n]+)", lessons_m.group(1), re.M) if lessons_m else []
+        rem_lessons_m = re.search(r"## The Remnant Lessons\s*(.*?)(?=## A Remnant|\Z)", chap_text, re.S)
+        rem_lessons = re.findall(r"^###\s+([^\n]+)", rem_lessons_m.group(1), re.M) if rem_lessons_m else []
+        
+        # Verify required fields
+        for field_name, val in [("Element", elem), ("Gate", gate), ("Whisper", whisper), ("Key", key), ("Remnant Key", rem_key)]:
+            if not val:
+                print(f"FAIL Realm {num} {field_name} missing in Wanderers_Guide_Complete.md")
+                sys.exit(1)
+        if len(lessons) != 5:
+            print(f"FAIL Realm {num} expected 5 lesson titles, found {len(lessons)}: {lessons}")
+            sys.exit(1)
+        if len(rem_lessons) != 5:
+            print(f"FAIL Realm {num} expected 5 remnant lesson titles, found {len(rem_lessons)}: {rem_lessons}")
+            sys.exit(1)
+            
         canon[num] = {
             "index": i + 1,
             "name": name,
@@ -75,6 +101,8 @@ def parse_canon(ms_text: str):
             "whisper": whisper,
             "key": key,
             "remnant_key": rem_key,
+            "lessons": lessons,
+            "rem_lessons": rem_lessons,
         }
     return canon
 
@@ -241,7 +269,6 @@ def verify_skill(canon, skill_path=SKILL_PATH):
     failures = 0
     content = skill_path.read_text(encoding="utf-8")
     
-    # Step 2 Keys (10 Realms)
     step2_keys = re.findall(r'-\s+\*\*([IVX]+)\s+([A-Za-z\s]+):\*\*\s+([^,]+),\s+.*?Key:\s+\*?\"([^\"]+)\"\*?', content)
     if len(step2_keys) != 10:
         print(f"FAIL {skill_path.name}: expected 10 Step 2 Keys, found {len(step2_keys)}")
@@ -259,7 +286,6 @@ def verify_skill(canon, skill_path=SKILL_PATH):
                 print(f"FAIL {skill_path.name} Step 2 Realm {num} Key mismatch")
                 failures += 1
 
-    # Part 4 Remnant Keys (10 Remnants)
     rem_keys = re.findall(r'-\s+\*[^\*]+\*\s+\(Realm\s+([IVX]+)\s+Remnant\)\s+—\s+Remnant Key:\s+\*?\"([^\"]+)\"\*?', content)
     if len(rem_keys) != 10:
         print(f"FAIL {skill_path.name}: expected 10 Remnant Keys in Part 4, found {len(rem_keys)}")
@@ -289,9 +315,11 @@ def verify_contradiction(canon, contradiction_path=CONTRADICTION_PATH):
             canon_quotes_checked += 1
     return failures, canon_quotes_checked
 
-def verify_quoted_sweep(ms_text, sweep_files):
+def verify_quoted_sweep(canon_text, sweep_files):
     failures = 0
-    norm_ms = normalize(ms_text)
+    colophon_m = re.search(r"^# (?:Colophon|Appendix)", canon_text, re.M)
+    canon_book = canon_text[:colophon_m.start()] if colophon_m else canon_text
+    norm_canon = normalize(canon_book)
     
     EXTERNAL_PATTERNS = [
         re.compile(p, re.IGNORECASE) for p in [
@@ -336,19 +364,19 @@ def verify_quoted_sweep(ms_text, sweep_files):
                 nq = normalize(check_q)
                 if len(nq) >= 12:
                     sweep_checked += 1
-                    if nq not in norm_ms:
+                    if nq not in norm_canon:
                         if not any(p.search(line) for p in EXTERNAL_PATTERNS):
-                            print(f"FAIL {fpath.name}:{line_no} quoted text not in manuscript: '{q}'")
+                            print(f"FAIL {fpath.name}:{line_no} quoted text not in Complete canon: '{q}'")
                             failures += 1
     return failures, sweep_checked
 
 def main():
-    if not MANUSCRIPT_PATH.exists():
-        print(f"Error: Manuscript not found at {MANUSCRIPT_PATH}")
+    if not CANON_PATH.exists():
+        print(f"Error: Canon file not found at {CANON_PATH}")
         sys.exit(1)
         
-    ms_text = MANUSCRIPT_PATH.read_text(encoding="utf-8")
-    canon = parse_canon(ms_text)
+    canon_text = CANON_PATH.read_text(encoding="utf-8")
+    canon = parse_canon(canon_text)
     
     total_failures = 0
     counts = {}
@@ -390,17 +418,17 @@ def main():
         CONTRADICTION_PATH,
     ] + sorted([p for p in REFERENCES_DIR.glob("*.md") if p not in (CODEX_PATH, CYBERNETICS_PATH, CONTRADICTION_PATH)])
     
-    f, c = verify_quoted_sweep(ms_text, sweep_files)
+    f, c = verify_quoted_sweep(canon_text, sweep_files)
     total_failures += f
     counts["Quoted-text sweep (>=12 chars)"] = c
     
-    print("\n--- Canon Verification Summary ---")
+    print("\n--- Canon Verification Summary (Wanderers_Guide_Complete.md) ---")
     for k, v in counts.items():
         print(f"  {k}: {v} checked")
     print(f"Total failures: {total_failures}")
     
     if total_failures == 0:
-        print("\nSUCCESS: All strict per-Realm checks and quoted-text sweeps PASSED!")
+        print("\nSUCCESS: All strict per-Realm checks and quoted-text sweeps PASSED against Wanderers_Guide_Complete.md!")
         sys.exit(0)
     else:
         print(f"\nFAILURE: {total_failures} check(s) failed.")
